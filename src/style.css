@@ -1,0 +1,449 @@
+/* 여백 초기화 */
+body,
+div,
+dl,
+dd,
+dt,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+fieldset,
+form,
+legend,
+p,
+blockquote,
+th,
+td,
+input,
+button,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* 시멘틱 태그 초기화 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* 폰트 초기화 */
+body,
+input,
+select,
+table,
+textarea {
+    color: #000;
+    font-family: 'NexonLv1Gothic', 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', dotum, 돋움;
+}
+
+/* 가로모드 초기화 */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* 링크 초기화 */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* 목록 초기화 */
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+/* 제목 초기화 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+/* 폰트 스타일 초기화 */
+em,
+address {
+    font-style: normal;
+}
+
+/* 이미지 초기화 */
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* 보더 초기화 */
+img,
+fieldset,
+button {
+    border: 0;
+}
+
+/* 클리어 픽스 */
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    line-height: 0;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+/* 블라인드 효과 */
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* 이미지 대체(ir) 효과 */
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+.auth__wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.login__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+
+.twitter__icon {
+    width: 45px;
+    height: 45px;
+    color: #04aaff;
+    margin-bottom: 20px;
+}
+
+.login__form input {
+    width: 320px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+}
+.login__form .sign__in {
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #04aaff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.socail__wrap {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socail__wrap button {
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.google__icon,
+.github__icon {
+    margin-left: 5px;
+    vertical-align: -5px;
+    font-size: 18px;
+}
+
+.google {
+    margin-right: 10px;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
+
+.toggle__account {
+    font-size: 14px;
+    color: #04aaff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 5vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav .twitter__icon,
+nav .profile__icon {
+    width: 30px;
+    height: 30px;
+    color: #04aaff;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.home__wrap {
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.home__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.home__form input {
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #04aaff;
+    box-sizing: border-box;
+    color: #fff;
+    background: transparent;
+}
+
+.home__form .arrow__icon__wrap {
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    cursor: pointer;
+}
+
+#submit__cweet {
+    cursor: pointer;
+}
+
+.home__form .arrow__icon {
+    font-size: 39px;
+    color: #04aaff;
+}
+
+.home__form .plus__icon__wrap {
+    color: #04aaff;
+    font-size: 14px;
+    margin: 30px auto;
+
+    cursor: pointer;
+}
+
+.home__form .plus__icon {
+    vertical-align: -3px;
+    margin-left: 5px;
+}
+.preview__img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+.preview__img button {
+    background-color: inherit;
+    color: #04aaff;
+    text-align: right;
+    cursor: pointer;
+}
+.cweet {
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 320px;
+    padding: 23px 25px 20px 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.8);
+    word-break: keep-all;
+    align-items: center;
+}
+.cweet h4 {
+    width: 100%;
+    text-align: left;
+}
+.cweet img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.edit__wrap {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.edit__wrap button {
+    background-color: transparent;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.delete__icon,
+.update__icon {
+    width: 15px;
+    height: 15px;
+    color: #4949a1;
+}
+
+.delete__icon {
+    color: #8f4d4d;
+    vertical-align: 1px;
+}
+
+.edit__form input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.edit,
+.cancel {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #04aaff;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cancel {
+    background-color: tomato;
+}
+
+.profile__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vw;
+    color: #fff;
+}
+
+.profile__form input {
+    width: 320px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.update__profile,
+.logout {
+    width: 320px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #04aaff;
+    color: #fff;
+    margin-bottom: 55px;
+    cursor: pointer;
+    position: relative;
+}
+
+.logout {
+    background-color: tomato;
+}
+
+.update__profile::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}

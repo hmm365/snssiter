@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/snssite/static/css/main.c58170aa.css",
+    "main.js": "/snssite/static/js/main.d957bd5d.js",
+    "index.html": "/snssite/index.html",
+    "main.c58170aa.css.map": "/snssite/static/css/main.c58170aa.css.map",
+    "main.d957bd5d.js.map": "/snssite/static/js/main.d957bd5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c58170aa.css",
+    "static/js/main.d957bd5d.js"
+  ]
+}
