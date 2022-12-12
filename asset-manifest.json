@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/snssiter.git/static/css/main.c58170aa.css",
+    "main.js": "/snssiter.git/static/js/main.ff7f13fd.js",
+    "index.html": "/snssiter.git/index.html",
+    "main.c58170aa.css.map": "/snssiter.git/static/css/main.c58170aa.css.map",
+    "main.ff7f13fd.js.map": "/snssiter.git/static/js/main.ff7f13fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c58170aa.css",
+    "static/js/main.ff7f13fd.js"
+  ]
+}
