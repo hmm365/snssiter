@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/snssiter.git/static/css/main.c58170aa.css",
-    "main.js": "/snssiter.git/static/js/main.ff7f13fd.js",
-    "index.html": "/snssiter.git/index.html",
-    "main.c58170aa.css.map": "/snssiter.git/static/css/main.c58170aa.css.map",
-    "main.ff7f13fd.js.map": "/snssiter.git/static/js/main.ff7f13fd.js.map"
+    "main.css": "/snssiter/static/css/main.c58170aa.css",
+    "main.js": "/snssiter/static/js/main.ac2d162b.js",
+    "index.html": "/snssiter/index.html",
+    "main.c58170aa.css.map": "/snssiter/static/css/main.c58170aa.css.map",
+    "main.ac2d162b.js.map": "/snssiter/static/js/main.ac2d162b.js.map"
   },
   "entrypoints": [
     "static/css/main.c58170aa.css",
-    "static/js/main.ff7f13fd.js"
+    "static/js/main.ac2d162b.js"
   ]
 }
